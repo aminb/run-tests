@@ -51,6 +51,8 @@ its output. This can be optionally disabled by issuing the `-nc`
 An example output of the script is as follows:
 
 ```
+λ ./utils/run-tests.py -nc
+
 tests/acceptance/instructor
 └── at0.txt: failed
 diff <(exe/tracker.exe -b tests/acceptance/instructor/at0.txt) tests/acceptance/instructor/at0.expected.txt
